@@ -1,0 +1,6 @@
+{
+    "search.searchView.keywordSuggestions": true,
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+    "C_Cpp.errorSquiggles": "enabled",
+    "notebook.output.minimalErrorRendering": false
+}
