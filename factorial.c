@@ -24,7 +24,6 @@ int main(){
 
     printf("Enter a Number: ");    
     scanf("%u", &y);
-
     printf("[ ");
 
     if (x > 1)
@@ -39,8 +38,6 @@ int main(){
     return 0;
 }
 
-
-    
 
 
     

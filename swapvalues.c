@@ -2,7 +2,7 @@
 
 int main(){
     
-    int x,y, swap;
+    int x,y, swap; //variable declared
     
     printf("Enter Value of x: ");
     scanf("%d", &x);
