@@ -14,6 +14,7 @@
     return (x > 0 && x < 1);
 }
 
+
 //3. Function to compute sine
     double computeSine(double x) {
     return sin(x);

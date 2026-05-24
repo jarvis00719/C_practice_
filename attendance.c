@@ -15,7 +15,7 @@ typedef struct {
 void addRecord(FILE *fp) {
     Record r;
     printf("Employee ID: "); scanf("%s", r.empId);
-    printf("Name: "); scanf(" %[^\n]", r.name);
+    printf("Name: "); scanf(" [^\n]", r.name);
     printf("Company (NTPC / NSL / DRDO ): "); scanf("%s", r.company);
     printf("Date (YYYY-1MM-DD): "); scanf("%s", r.date);
     printf("Shift (Morning/Evening/Night): "); scanf("%s", r.shift);
