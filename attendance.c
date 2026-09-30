@@ -16,7 +16,7 @@ void addRecord(FILE *fp) {
     Record r;
     printf("Employee ID: "); scanf("%s", r.empId);
     printf("Name: "); scanf(" [^\n]", r.name);
-    printf("Company (NTPC / NSL / DRDO ): "); scanf("%s", r.company);
+    printf("Company (): "); scanf("%s", r.company);
     printf("Date (YYYY-1MM-DD): "); scanf("%s", r.date);
     printf("Shift (Morning/Evening/Night): "); scanf("%s", r.shift);
     printf("Status (Present/Absent): "); scanf("%s", r.status);
