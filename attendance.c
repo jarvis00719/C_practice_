@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define MAX 100
+#define MAX 250
 typedef struct {
     char empId[20];
     char name[50];
-    char company[10]; // "CompA","CompB","CompC"
+    char company[40]; // "CompA","CompB","CompC"
     char date[12];    // YYYY-MM-DD
     char shift[10];   // "Morning","Evening","Night"
-    char status[10];  // "Present"/"Absent"
+    char status[8];  // "Present"/"Absent"
 } Record;
 
 void addRecord(FILE *fp) {
